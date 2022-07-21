@@ -1,0 +1,43 @@
+<div class="container mt-5">
+  <div class="row align-items-start">
+    <div class="text-center">
+      <form class="form-signin">
+        <img
+          class="mb-4"
+          src="assets/images/cat-logo.png"
+          alt=""
+          width="72"
+          height="72"
+        />
+        <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
+        <label for="inputEmail" class="sr-only">Email</label>
+        <input
+          type="email"
+          id="inputEmail"
+          class="form-control mx-auto mt-2"
+          style="max-width: 320px"
+          placeholder="Email"
+          required
+          autofocus
+        />
+        <label for="inputPassword" class="sr-only mt-1">Senha</label>
+        <input
+          type="password"
+          id="inputPassword"
+          class="form-control mx-auto mt-2"
+          style="max-width: 320px"
+          placeholder="Senha"
+          required
+        />
+        <div class="mt-3">
+          <a [routerLink]="['/cadastro']" class="font-weight-bold" style="font-weight: bold">Não tem cadastro?</a>
+        </div>
+        <div class="p-3 mw-50">
+          <button class="btn btn-primary btn-block w-25" type="submit">
+            Continuar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
