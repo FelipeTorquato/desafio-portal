@@ -6,9 +6,10 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 ### Recursos
 
-- [Bootstrap v5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
+- [Visual Studio Code v1.69.2](https://code.visualstudio.com/).
 - [Angular CLI v14.0.4](https://angular.io/cli).
-
+- [Bootstrap v5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
+  
 ### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
