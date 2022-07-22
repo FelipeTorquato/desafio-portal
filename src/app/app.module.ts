@@ -8,6 +8,7 @@ import { NavBarComponent } from './core/nav-bar/nav-bar.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { QuemSouComponent } from './components/quem-sou/quem-sou.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CadastroComponent } from './components/cadastro/cadastro.component';
     NavBarComponent,
     SignInComponent,
     QuemSouComponent,
-    CadastroComponent
+    CadastroComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
