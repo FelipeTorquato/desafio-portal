@@ -28,3 +28,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ### Cadastro
 
 ![Imagem da tela de cadastro](/src/assets/screenshots/cadastro.png)
+
+### Menu Principal
+
+![Imagem do menu principal](/src/assets/screenshots/menu%20principal.png)
