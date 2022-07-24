@@ -1,1 +1,40 @@
-<p>home works!</p>
+<div class="container mt-4">
+  <div class="container text-center">
+    <h2>Olá, {{ masterPass.primeiroNome }} {{ masterPass.segundoNome }}</h2>
+  </div>
+  <div class="d-flex flex-wrap justify-content-around mt-4 p-1">
+    <!-- Card Contra Cheque -->
+    <div class="card" style="width: 18.5rem;">
+      <img src="assets/examples/parte-contra-cheque.png" class="card-img-top" alt="contra-cheque">
+      <div class="card-body">
+        <h5 class="card-title">Contra Cheque</h5>
+        <p class="card-text">Para ter acesso ao seu último contra cheque, clique no botão abaixo.</p>
+        <div class="text-center">
+          <a [routerLink]="['/contra-cheque']" class="btn btn-primary">Clique aqui</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card Crachá Digital -->
+    <div class="card" style="width: 18.5rem;">
+      <img src="assets/examples/cracha-frente.png" class="card-img-top" alt="cracha-digital">
+      <div class="card-body">
+        <h5 class="card-title">Crachá Digital</h5>
+        <p class="card-text">Para ter acesso ao seu crachá digital, clique no botão abaixo.</p>
+        <div class="text-center">
+          <a [routerLink]="['/cracha-digital']" class="btn btn-primary">Clique aqui</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card Service Desk -->
+    <div class="card" style="width: 18.5rem;">
+      <img src="assets/images/service-desk.png" class="card-img-top" alt="service-desk">
+      <div class="card-body">
+        <h5 class="card-title">Service Desk</h5>
+        <p class="card-text">Para ter acesso ao Service Desk, clique no botão abaixo.</p>
+        <div class="text-center">
+          <a [routerLink]="" class="btn btn-primary">Clique aqui</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

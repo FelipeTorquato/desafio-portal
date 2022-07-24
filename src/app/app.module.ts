@@ -9,6 +9,8 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
 import { QuemSouComponent } from './components/quem-sou/quem-sou.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { HomeComponent } from './components/home/home.component';
+import { ContraChequeComponent } from './components/contra-cheque/contra-cheque.component';
+import { CrachaDigitalComponent } from './components/cracha-digital/cracha-digital.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HomeComponent } from './components/home/home.component';
     SignInComponent,
     QuemSouComponent,
     CadastroComponent,
-    HomeComponent
+    HomeComponent,
+    ContraChequeComponent,
+    CrachaDigitalComponent
   ],
   imports: [
     BrowserModule,
