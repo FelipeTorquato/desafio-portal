@@ -31,4 +31,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ### Menu Principal
 
-![Imagem do menu principal](/src/assets/screenshots/menu%20principal.png)
+![Imagem do menu principal](/src/assets/screenshots/menu-principal.png)
