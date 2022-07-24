@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { QuemSouComponent } from './components/quem-sou/quem-sou.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { CrachaDigitalComponent } from './components/cracha-digital/cracha-digital.component';
+import { ServiceDeskComponent } from './components/service-desk/service-desk.component';
 
 const routes: Routes = [
   { path: "sign-in", component: SignInComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: "home", component: HomeComponent },
   { path: "contra-cheque", component: ContraChequeComponent },
   { path: "cracha-digital", component: CrachaDigitalComponent },
+  { path: "service-desk", component: ServiceDeskComponent },
   { path: "**", component: Error404Component }
 ];
 

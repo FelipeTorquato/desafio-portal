@@ -11,6 +11,7 @@ import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContraChequeComponent } from './components/contra-cheque/contra-cheque.component';
 import { CrachaDigitalComponent } from './components/cracha-digital/cracha-digital.component';
+import { ServiceDeskComponent } from './components/service-desk/service-desk.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CrachaDigitalComponent } from './components/cracha-digital/cracha-digit
     CadastroComponent,
     HomeComponent,
     ContraChequeComponent,
-    CrachaDigitalComponent
+    CrachaDigitalComponent,
+    ServiceDeskComponent
   ],
   imports: [
     BrowserModule,
